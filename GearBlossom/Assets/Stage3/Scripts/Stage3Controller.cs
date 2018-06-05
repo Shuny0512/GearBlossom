@@ -9,10 +9,16 @@ public class Stage3Controller : MonoBehaviour {
 	public GameObject TurntableLeftPrefab;
 	public GameObject Switchpanel;
 	public static bool OnorOff;
+	public GameObject TurntableRightObject;
+	public GameObject TurntableLeftObject;
 
 	void Start () 
 	{
 		OnorOff = true;
+		TurntableRightPrefab.SetActive (true);
+		TurntableLeftPrefab.SetActive (false);
+		GameObject turntablerightbox = Instantiate (TurntableRightObject) as GameObject;
+		GameObject turntableleftbox = Instantiate (TurntableLeftObject) as GameObject;
 
 		for (int z = -2; z <= 5; z++) 
 		{
@@ -32,16 +38,12 @@ public class Stage3Controller : MonoBehaviour {
 		GameObject turntableright = Instantiate (TurntableRightPrefab) as GameObject;
 		turntableright.transform.position = new Vector3 (-4, 0.5f, 0);
 
+
 		GameObject turntableleft = Instantiate (TurntableLeftPrefab) as GameObject;
 		turntableleft.transform.position = new Vector3 (-4, 0.5f, 0);
 
 
-		if (OnorOff == true) 
-		{
-			
-			TurntableRightPrefab.SetActive (true);
-			TurntableLeftPrefab.SetActive (false);
-		}
+
 
 	}
 	
@@ -49,11 +51,18 @@ public class Stage3Controller : MonoBehaviour {
 	void Update () 
 	{
 
+		if (OnorOff == true) 
+		{
+
+			TurntableRightObject.SetActive (true);
+			TurntableLeftObject.SetActive (false);
+		}	
+
 		if (OnorOff == false) 
 		{
 			
-			TurntableRightPrefab.SetActive (false);
-			TurntableLeftPrefab.SetActive (true);
+			TurntableRightObject.SetActive (false);
+			TurntableLeftObject.SetActive (true);
 
 		}
 			

@@ -720,7 +720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stage2: {fileID: 1653706776334886, guid: 1840d0ea8da6f43b693b6f21e3f3309c, type: 2}
   Bud: {fileID: 1115702537476282, guid: d346e46661e3a4330bc1ff01162aa009, type: 2}
-  Turntable: {fileID: 1339323960921842, guid: 1eb7db3a20ede4f4697e3b38f51c6f73, type: 2}
+  Turntable: {fileID: 1525078099418992, guid: 1eb7db3a20ede4f4697e3b38f51c6f73, type: 2}
 --- !u!4 &2015465023
 Transform:
   m_ObjectHideFlags: 0
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c2bcbd04cb845559edc1b5c16bec9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Turntable: {fileID: 1339323960921842, guid: 1eb7db3a20ede4f4697e3b38f51c6f73, type: 2}
+  Turntable: {fileID: 1525078099418992, guid: 1eb7db3a20ede4f4697e3b38f51c6f73, type: 2}
   Stage2Player: {fileID: 1420407828742616, guid: 41c9a5e08c0f24a31a5da4f8f53ba01d,
     type: 2}
   counter: 0

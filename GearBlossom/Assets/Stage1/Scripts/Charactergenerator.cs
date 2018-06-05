@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stage1CharacterGenerator : MonoBehaviour {
+public class Charactergenerator : MonoBehaviour {
 
 	public GameObject Player;
 	public int counter = 0;

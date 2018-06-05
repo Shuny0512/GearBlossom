@@ -168,14 +168,15 @@
 -define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
 'Assets/Stage1/Scripts/BloomController.cs'
+'Assets/Stage1/Scripts/Charactergenerator.cs'
 'Assets/Stage1/Scripts/CharactermovementController.cs'
 'Assets/Stage1/Scripts/PlayController.cs'
-'Assets/Stage1/Scripts/Stage1CharacterGenerator.cs'
 'Assets/Stage1/Scripts/StageController.cs'
 'Assets/Stage2/Scripts/Stage2Controller.cs'
 'Assets/Stage2/Scripts/Stage2GimicGenerator.cs'
 'Assets/Stage3/Scripts/Stage3Controller.cs'
 'Assets/Stage3/Scripts/Stage3PlayerGenerator.cs'
+'Assets/Stage4/Scripts/Stage4Controller.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'

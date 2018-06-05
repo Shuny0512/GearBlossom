@@ -24,6 +24,7 @@ public class Stage2Controller : MonoBehaviour {
 
 		GameObject bud = Instantiate (Bud) as GameObject;
 		bud.transform.position = new Vector3 (-5, 1, 5);
+
 		GameObject turntable = Instantiate (Turntable) as GameObject;
 		turntable.transform.position = new Vector3 (0, 0.5f, 5);
 		turntable.transform.rotation = Quaternion.Euler (0, 90, 0);

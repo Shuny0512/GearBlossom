@@ -438,6 +438,10 @@ MonoBehaviour:
     type: 2}
   Switchpanel: {fileID: 1375957234665422, guid: afafa70c95e2341399b01a591e5bde40,
     type: 2}
+  TurntableRightObject: {fileID: 1079962934071720, guid: 69db1ff1fbb244ebab1826ee37f8b3d0,
+    type: 2}
+  TurntableLeftObject: {fileID: 1169412248810368, guid: 35a0006145ecd49048610d83ac2f2eb8,
+    type: 2}
 --- !u!4 &1460566483
 Transform:
   m_ObjectHideFlags: 0

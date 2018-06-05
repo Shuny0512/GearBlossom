@@ -49,6 +49,8 @@ public class CharactermovementController : MonoBehaviour
 			transform.position = new Vector3 (other.transform.position.x, 1, other.transform.position.z);
 			Stage3Controller.OnorOff = false;
 			Debug.Log (Stage3Controller.OnorOff);
+			transform.position = new Vector3 (other.transform.position.x, 1, other.transform.position.z);
+			this.gameObject.SetActive (false);
 
 		}
 	}
