@@ -410,8 +410,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1460566483}
   - component: {fileID: 1460566482}
-  - component: {fileID: 1460566484}
   - component: {fileID: 1460566485}
+  - component: {fileID: 1460566484}
   m_Layer: 0
   m_Name: GameDirector
   m_TagString: Untagged
@@ -434,7 +434,7 @@ MonoBehaviour:
     type: 2}
   TurntableRightPrefab: {fileID: 1912673042215358, guid: 866ff3306971845ebb8ae6be1f9f9661,
     type: 2}
-  TurntableLeftPrefab: {fileID: 1339323960921842, guid: 1eb7db3a20ede4f4697e3b38f51c6f73,
+  TurntableLeftPrefab: {fileID: 1525078099418992, guid: 1eb7db3a20ede4f4697e3b38f51c6f73,
     type: 2}
   Switchpanel: {fileID: 1375957234665422, guid: afafa70c95e2341399b01a591e5bde40,
     type: 2}
@@ -468,7 +468,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stage3Player: {fileID: 1420407828742616, guid: 41c9a5e08c0f24a31a5da4f8f53ba01d,
     type: 2}
-  counter: 0
+  Stage3PlayerObject1: {fileID: 1115564227442604, guid: 527bf9524063046eca1009cddcea5892,
+    type: 2}
+  Stage3PlayerObject2: {fileID: 1363935020039076, guid: 40c8d082d501442b78299e0b8dab7907,
+    type: 2}
+  counter: 1
 --- !u!114 &1460566485
 MonoBehaviour:
   m_ObjectHideFlags: 0

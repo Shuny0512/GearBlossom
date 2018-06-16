@@ -12,6 +12,7 @@ public class Stage4Controller : MonoBehaviour
 
 	void Start () 
 	{
+		
 		for (int x = 0; x <= 7; x++) 
 		{
 			GameObject stage4objectxa = Instantiate (Stage4Prefab) as GameObject;

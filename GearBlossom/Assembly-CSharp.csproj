@@ -58,8 +58,10 @@
      <Compile Include="Assets\Stage1\Scripts\StageController.cs" />
      <Compile Include="Assets\Stage2\Scripts\Stage2Controller.cs" />
      <Compile Include="Assets\Stage2\Scripts\Stage2GimicGenerator.cs" />
+     <Compile Include="Assets\Stage3\Scripts\PlayerGenerator.cs" />
      <Compile Include="Assets\Stage3\Scripts\Stage3Controller.cs" />
      <Compile Include="Assets\Stage3\Scripts\Stage3PlayerGenerator.cs" />
+     <Compile Include="Assets\Stage4\Scripts\PlayerSpawner.cs" />
      <Compile Include="Assets\Stage4\Scripts\Stage4Controller.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>

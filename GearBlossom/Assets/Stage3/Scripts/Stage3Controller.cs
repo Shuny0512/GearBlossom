@@ -15,8 +15,8 @@ public class Stage3Controller : MonoBehaviour {
 	void Start () 
 	{
 		OnorOff = true;
-		TurntableRightPrefab.SetActive (true);
-		TurntableLeftPrefab.SetActive (false);
+		//TurntableRightObject.SetActive (true);
+		//TurntableRightObject.SetActive (false);
 		GameObject turntablerightbox = Instantiate (TurntableRightObject) as GameObject;
 		GameObject turntableleftbox = Instantiate (TurntableLeftObject) as GameObject;
 
@@ -35,12 +35,13 @@ public class Stage3Controller : MonoBehaviour {
 		GameObject switchpanel = Instantiate (Switchpanel)  as GameObject;
 		switchpanel.transform.position = new Vector3 (-4, 0.5f, -2);
 
-		GameObject turntableright = Instantiate (TurntableRightPrefab) as GameObject;
-		turntableright.transform.position = new Vector3 (-4, 0.5f, 0);
+		TurntableRightObject = Instantiate (TurntableRightPrefab) as GameObject;
+		TurntableRightObject.transform.position = new Vector3 (-4, 0.5f, 0);
 
 
-		GameObject turntableleft = Instantiate (TurntableLeftPrefab) as GameObject;
-		turntableleft.transform.position = new Vector3 (-4, 0.5f, 0);
+		TurntableLeftObject = Instantiate (TurntableLeftPrefab) as GameObject;
+		TurntableLeftObject.transform.position = new Vector3 (-4, 0.5f, 0);
+		TurntableLeftObject.transform.rotation = Quaternion.Euler (0, -90, 0);
 
 
 
