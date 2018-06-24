@@ -177,7 +177,6 @@
 'Assets/Stage3/Scripts/PlayerGenerator.cs'
 'Assets/Stage3/Scripts/Stage3Controller.cs'
 'Assets/Stage3/Scripts/Stage3PlayerGenerator.cs'
-'Assets/Stage4/Scripts/Stage4Controller.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
