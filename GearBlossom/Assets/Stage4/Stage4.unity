@@ -433,15 +433,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1650414463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4498b4f602c7e4e9faec4181dbd2b1e2, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  Stage4Prefab: {fileID: 1653706776334886, guid: 1840d0ea8da6f43b693b6f21e3f3309c,
-    type: 2}
-  TurntablerightPrefab: {fileID: 1912673042215358, guid: 866ff3306971845ebb8ae6be1f9f9661,
-    type: 2}
-  TurntableleftPrefab: {fileID: 1525078099418992, guid: 1eb7db3a20ede4f4697e3b38f51c6f73,
-    type: 2}
 --- !u!4 &1650414465
 Transform:
   m_ObjectHideFlags: 0
@@ -466,8 +460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d80e7358bd6240159569a4666e63cf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StagePlayerPrefab: {fileID: 1420407828742616, guid: 41c9a5e08c0f24a31a5da4f8f53ba01d,
-    type: 2}
 --- !u!114 &1650414467
 MonoBehaviour:
   m_ObjectHideFlags: 0
